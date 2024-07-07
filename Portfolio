@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header p {
+            margin: 0.5rem 0 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            background: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        section h2 {
+            margin-top: 0;
+        }
+
+        .about img {
+            float: left;
+            margin-right: 20px;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills ul li {
+            background: #eee;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .projects img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Asma Ishrath S M</h1>
+        <p>A brief introduction </p>
+    </header>
+    <main>
+        <section class="about">
+            <h2>About Me</h2>
+            <img src="C:\Users\ASMA\OneDrive\Pictures\anime.jpg" alt="Asma">
+            <p>Asma Ishrath S M- Software Engineer
+                Skilled in Python, Java, and C++ with experience in React and TensorFlow. Passionate about AI and machine learning. Enjoys hackathons and open-source projects.
+                .</p>
+        </section>
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Web Developer</li>
+                <li>power Bi</li>
+                <li>App Developer</li>
+                <li>Coder</li>
+            </ul>
+        </section>
+        <section class="projects">
+            <h2>Projects</h2>
+            <article>
+                <h3>Tree free paper</h3>
+                <img src="C:\Users\ASMA\OneDrive\Pictures\tfp.jpg" alt="Tree free paper">
+                <p>Tree  free paper is used to reduce the deforestation , because everyday millions of trees are being cut to produce papers so that we are finding the alternatives .</p>
+            </article>
+            <article>
+                <h3>Online Leave management System</h3>
+                <img src="C:\Users\ASMA\OneDrive\Pictures\leave.jpg" alt="Online Leave management System">
+                <p>An online leave management system streamlines the process of handling leave requests by automating submissions and approvals. 
+                    Employees can easily submit requests, while managers can quickly review and approve them. The system provides transparency in
+                    leave balances and integrates with calendars for visibility into employee availability. Additionally, mobile access ensures 
+                    convenience for users on the go.</p>
+            </article>
+        </section>
+        <section class="resume">
+            <h2>Resume</h2>
+            <a href="C:\Users\ASMA\OneDrive\Pictures\Saved Pictures\Google Image Result_files\res1.jpg" download>Download my resume</a>
+        </section>
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>Email: asmaishrath035@gmail.com</p>
+            <p>Phone: 8748855227</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
